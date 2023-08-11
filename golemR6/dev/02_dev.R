@@ -21,6 +21,7 @@ usethis::use_package( "thinkr" )
 ## Create a module infrastructure in R/
 golem::add_module( name = "a" ) # Name of the module
 golem::add_module( name = "b" ) # Name of the module
+golem::add_module( name = "dynamic")
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*
